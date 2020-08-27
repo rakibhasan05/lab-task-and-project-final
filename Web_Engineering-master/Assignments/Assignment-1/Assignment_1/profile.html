@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+ <html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Personal webpage </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+        <style>
+           a{
+               height: 80px;
+               width: 80px;
+               background-color:#f5f6fa;
+               border-radius: 50px;
+               text-align: center;
+               margin: 10px; 
+               line-height: 100px; 
+               box-shadow: 1px 4px 2px 2px  #dcdde1;
+           }
+
+           a i{
+
+               transition: all 0.3s linear;
+           }
+
+           a:hover i{
+
+               transform: scale(1.4);
+           }
+
+
+        </style>
+        <link rel="stylesheet" href="newstyle.css"> 
+    </head>
+    <body>
+        <!--First section-->
+        <div id="sec-1">
+        <h1 id="nameTitle" style="text-align: center;">Md.Zahin Hossain</h1>
+        </div>
+
+        
+
+        <!--Second section-->
+        <div id="sec-2">
+        <h2>About Me:</h2>
+        
+        <hr>
+
+         <img src="Me.jpeg" height="200px" width="200px" alt="Image" class="imgc"/> 
+        <p>Hello everyone, <br> I'm   Md.Zahin Hossain <br>
+           My hometown is Dinajpur <br>
+           Currently studing BSc in CSE <br>
+            in Daffodil International University </p>
+          
+        </div>   
+           
+
+          <!--Third section--> 
+          <div id="sec-3">
+            <h2>More About Me :</h2>
+
+            <table class="tcentre" border="1">
+               
+                <tr style="background: rgb(48, 199, 123);">
+                    <td colspan="1"> <b>Type</b> <br> </td>
+                    <td> <b> Activity</b> <br> </td>
+                </tr>
+                    
+                
+                    
+                <tr style="background: white;">
+                    <td>School</td>
+                    <td>Dinajpur Zilla School</td>
+                </tr>
+                    
+                    
+                <tr style="background: white;">
+                    <td>College</td>
+                    <td>Dinajpur Govt College</td>
+                </tr>
+
+                <tr style="background: white;">
+                    <td>Favourite Movie</td>
+                    <td>3-idiots</td>
+                </tr>
+
+                <tr style="background: white;">
+                    <td>Favourite song </td>
+                    <td>"Shopne tar feat Habib"</td>
+                </tr>
+
+
+            </table>
+            
+          </div>  
+           <hr>
+
+
+          <!--Fourth section-->
+         <div id="sec-4">
+                   <ol >
+                         <h2 style="text-align: center;">Hobbies</h2>
+                
+                   
+             
+                         <p style="font-size: 18pt;">  
+                           1.Singing <br>
+                           2.Writing<br>
+                           3.Coding   
+                         </p>
+                 
+                 </ol>
+             
+        </div>
+
+
+            <!--section-->
+
+
+            <div class="row">
+                <h2>Some Historical Place of Dinajpur</h2>
+                   <hr>
+                    <div class="column">
+                        <a href="https://www.tripadvisor.com/Attraction_Review-g2214143-d3443612-Reviews-Kantajew_Temple-Dinajpur_Rajshahi_Division.html" target="_blank">
+                          <img src="k1.jpg" alt="Temple" width="300" height="200">
+                        </a>
+                        <div class="desc"><b>Kantajew Temple</b></div>
+                      </div>
+
+                      
+                      <div class="column" style="margin-left: 100px;">
+                     <a href="https://www.tripadvisor.com/Attraction_Review-g2214143-d10060250-Reviews-Ramsagar_National_Park-Dinajpur_Rajshahi_Division.html" target="_blank">
+                          <img src="r1.jpg" alt="Forest_Lake" width="300" height="200">
+                        </a>
+                        <div  class="desc"><b>Ramsagar</b></div>
+                      </div>
+            </div>          
+        
+         <!--Icon-Section-->
+           
+          <div class="centerdiv">
+               
+          <h2>Helpful Links:</h2>
+              
+                   
+              <a href="https://www.facebook.com/" target="blank">
+
+                  <i class="fa fa-2x fa-facebook"> </i>
+              </a>
+
+              <a href="https://www.wikipedia.org/" target="blank">
+
+                <i class="fa fa-2x fa-wikipedia-w"></i>
+            </a>
+
+            <a href="https://www.google.com/" target="blank">
+
+                <i class="fa fa-2x fa-google"> </i>
+            </a>
+
+            <a href="https://www.youtube.com/" target="blank">
+
+                <i class="fa fa-2x fa-youtube"> </i>
+            </a>
+                
+
+          
+
+
+          </div>
+
+        <h2 style="text-align: center;"> <em>“The strongest among you is the one who controls his anger.” Prophet Muhammad (peace be upon him)</em></h2>
+       
+        <div id="dateTime"/>
+        <script>
+          var x = new Date(document.lastModified);
+          document.getElementById("dateTime").innerHTML = x;
+          </script>
+
+    </body>
+</html>
